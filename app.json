@@ -2,15 +2,15 @@
   "expo": {
     "name": "loyapro",
     "slug": "loyapro",
-    "version": "1.0.0",
+    "version": "2.0.7",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/loya.png",
     "scheme": "myapp",
-    "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/loya.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#3"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -19,13 +19,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.loyapro",
+      "buildNumber": "2.0.7"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/images/loya.png",
+        "backgroundColor": "#815BEC"
+      },
+      "package": "com.loyapro",
+      "versionCode": 2
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
